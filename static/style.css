@@ -1,0 +1,528 @@
+.container-fluid{
+    background: #000;-color: #0000;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+body{
+    background: #000;-color: #0000;
+}
+
+/*nav bar header*/
+.bg-dark{
+    --bs-bg-opacity: 0 !important;
+    width: 102;
+    height: 32;
+    fill:currentColor;
+    display:flex !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: SemiBold 700 !important;
+    margin-top: 0.5%;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: solid black;
+    position: relative;
+    -moz-box-align: center; 
+    -moz-box-pack: justify;
+    -content: space-between !important; 
+    align-items: center; 
+    z-index: 1 !important;
+}
+.bg-dark .logo-title{
+    font-family: 'Poppins', sans-serif;
+}
+/*END nav bar header*/
+
+
+/*Header Center */
+/*Place to stay*/
+.underline1{
+    text-decoration: none;
+    color:aliceblue;
+    position: relative;
+}
+.underline1:hover{
+    color: #ffffff;
+}
+.underline1::after{
+    content: ' ';
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    color: #ffffff;
+    background: currentColor; 
+    transform: scaleX(0.15); 
+    transform-origin: center;
+}
+/*underline2 (Experience,Online Experiences)*/
+.underline2::before{
+    content: ' ';
+    position: absolute; 
+    color: #ffffff;
+    background: currentColor;    
+}
+.underline2{
+    position: relative;
+    text-decoration: none; 
+    color:aliceblue; 
+}
+.underline2:hover{
+    color: grey;
+}
+.underline2:hover::after{
+    content: ' ';
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    color: #ffffff;
+    background: currentColor; 
+    transform: scaleX(0.03); 
+    transform-origin: center;
+}
+/*END Header Center */
+
+
+/*Header Right*/
+/*Become a host*/
+.host{
+    text-decoration: none;
+    color:aliceblue;
+    position: relative;
+    text-align: center;
+    border-radius: 5.6rem !important;
+}
+.host:hover{
+    color: #ffffff;
+    background-color: rgb(34, 30, 30);
+    border-radius: 5.6rem !important;
+}
+/*END Become a host*/
+/*language icon*/
+.language-icon{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    position: relative;
+    border-radius: 5.6rem !important;
+    background-position-x: initial ;
+    background-position-y: initial;
+    background-size:initial;
+    align-items: center;
+}
+.language-icon:hover{
+    color: #ffffff;
+    background-color: rgb(34, 30, 30);
+}
+/*END language icon*/
+/*menu & Profile icon*/
+.menu-profile{
+    position: absolute;
+    top: 51%;
+    left: 92.7%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border:none;
+    border-radius:30px;
+    padding: 4px 10px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600 !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.menu{
+    height: 22px;
+    width: 22px;
+    stroke: currentcolor;
+    stroke-width: 3px;
+}
+.profile{
+    height: 25px;
+    width: 25px;
+}
+/*END menu & Profile icon*/
+/*END Header Right*/
+
+
+/*pagination*/
+.first-pagination{
+    margin-top: 10px;
+}
+/*element1-Location */
+
+/*.............................???????????????????????????????*/
+.hover-effect1{
+    text-decoration: none;
+    color:aliceblue;
+    position: relative;
+    text-align: left;
+    border-radius: 5.6rem !important;
+}
+.hover-effect1:hover{
+    background-color: rgb(34, 30, 30);
+    border-radius: 5.6rem !important;
+}
+
+.pg-element0{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.pg-element1{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.pg-element2{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    padding-right: 120px;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.pg-element2:hover{
+    color: gray;
+    background-color: #ffffff;
+    border-radius: 2rem !important;
+}
+.pagination-button{
+    position: absolute;
+    margin-left: 32px;
+    transform: translate(60%, -41%);
+    background-color: #FF385C;
+    border:none;
+    border-radius: 200px;
+    padding-left: 9px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+      
+}
+.search-button{
+    padding-left: 3px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center; 
+    width: 28px;
+    height: 32px;
+}
+/*END pagination*/
+/*Jumbotron */
+.jumbotron{
+    background-color: #FF385C;
+    margin: auto;
+    border-radius: 15px;
+    background-position-x: initial ;
+    background-position-y: initial;
+    background-size:initial;
+    color: #ffffff;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    max-width: 92%;
+    min-width: 0px;
+    min-height: 450px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 170px;
+    padding-bottom: 80px;
+    /* margin-bottom: 100px; */
+}
+.jumbotron .display-4{
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    margin-bottom: 30px ;
+}
+.jumbotron .button {
+    padding: 8px 16px !important;  
+    content: center;
+    background-color:#FF385C;  
+    border:1px solid #ffffff;
+    border-radius: 0.6rem !important;    
+    font-size: 14px !important;
+    font-family: inherit !important;
+    cursor: pointer !important;
+    color: #ffffff;   
+}  
+.btn-outline-light:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+/* END Header and .jumbotron */
+
+/*Center-image*/
+.center-image{
+    background: linear-gradient(to bottom, black 50%,white 50%);
+    display: flex;
+    background-position: center;
+    position: relative !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.image{
+    border-radius: 12px;
+    display: flex;
+    background-position: center;
+    position: relative !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.inside-img-text{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+    line-height: 54px;
+}
+.inside-img-button {
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border:none;
+    border-radius:30px;
+    padding: 0px 25px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600 !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.inside-button-text{
+    background-image: linear-gradient(90deg, #6F019C 0%, #C6017E 135.12%) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+/*END Center-image*/
+
+/*header and center image section done......................................................................!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* White Continer */
+.white-container{
+    background-color: #ffffff;
+}
+body{
+    background: #ffffff;-color: #ffffff;
+}
+
+.space{
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+    overflow: hidden;
+    max-width: 1120px;
+}
+
+.heading{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 47px
+}
+
+.horizontal-images-4{
+    padding-left: 83px;
+    padding-right: 137px;
+    margin-left: 54px;  
+}
+.first-image{
+    background-color:rgb(217, 59, 48);;
+    color: #ffffff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-bottom: 60px;
+}
+.second-image{
+    background-color: #CC2D4A;
+    color: #ffffff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-bottom: 60px;
+}
+.third-image{
+    background-color: #BC1A6E;
+    color: #ffffff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-bottom: 60px;
+}
+.forth-image{
+    background-color: #D93B30;
+    color: #ffffff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-bottom: 60px;
+}
+.card{
+    border: none;
+}
+.card-img{
+    width:100%;
+    height: 100%; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.img-title{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.img-subtitle{
+    padding-left: 15px;
+    margin-bottom: 70px;
+}
+
+
+.horizontal-images-2{
+    padding-left: 83px;
+    padding-right: 137px;
+    margin-left: 54px;  
+}
+
+.space2{
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+    overflow: hidden;
+    max-width: 1120px;
+}
+
+.heading2{
+    padding-left: 11px;
+    padding-right: 80px;
+    margin-top: 40px;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 47px
+}
+.col-6-img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    z-index: -1;
+}
+.col-6-img-text1{
+    position: absolute;
+    top: 200%;
+    left: 21%;
+    transform: translate(-50%, 338%);
+    color: #FFFFFF;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+    line-height: 54px;
+    z-index: 1;
+}
+.col-6-img-button1{
+    position: absolute;
+    top: 90%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #000;
+    border:none;
+    border-radius:12px;
+    padding: 0px 25px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 600 !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+} 
+.col-6-img-text2{
+    position: absolute;
+    top: 200%;
+    left: 63%;
+    transform: translate(-48%, 338%);
+    color: #FFFFFF;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+    line-height: 54px;
+    z-index: 1;
+}
+.col-6-img-button2{
+    position: absolute;
+    top: 90%;
+    left: 31%;
+    transform: translate(-50%, -48%);
+    background-color: #ffffff;
+    color: #000;
+    border:none;
+    border-radius:12px;
+    padding: 0px 25px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 600 !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+} 
+/* END white Continer */
+.continer{
+    margin-top: 100px;
+    text-align: center;
+    width: 400;
+}
+
+
+.full-image{
+    border-radius: 12px;
+ } 
+
+.full-image-text{
+    position: absolute;
+    top: 303%;
+    left: 42%;
+    transform: translate(-130%, 111%);
+    color: #FFFFFF;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 99px;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+    line-height: 12px;
+}
+
+
+
+
+
